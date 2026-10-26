@@ -1,0 +1,96 @@
+{
+  "identifier" : "8A1B2C3D",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "29.99",
+      "familyShareable" : false,
+      "internalID" : "6E5F4A3B",
+      "localizations" : [
+        {
+          "description" : "Sumline+ forever. One purchase.",
+          "displayName" : "Sumline+ Lifetime",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.ianroyz.sumline.plus.lifetime",
+      "referenceName" : "Sumline+ Lifetime",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_failTransactionsEnabled" : false,
+    "_locale" : "en_US",
+    "_storefront" : "USA",
+    "_storeKitErrors" : [
+
+    ]
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "9D8C7B6A",
+      "localizations" : [
+
+      ],
+      "name" : "Sumline+",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "1.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "1A2B3C4D",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Streak Shield, unlimited hints, Insights.",
+              "displayName" : "Sumline+ Monthly",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.ianroyz.sumline.plus.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Sumline+ Monthly",
+          "subscriptionGroupID" : "9D8C7B6A",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "14.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "5E6F7A8B",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Best value — two months free.",
+              "displayName" : "Sumline+ Yearly",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.ianroyz.sumline.plus.yearly",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Sumline+ Yearly",
+          "subscriptionGroupID" : "9D8C7B6A",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
